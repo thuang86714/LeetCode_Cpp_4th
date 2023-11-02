@@ -1,8 +1,7 @@
 #include <queue>
 #include <vector>
 using namespace std;
-
-#define ppii pair<int, pair<int, int>>
+using ppii = pair<int, pair<int, int>>;
 class Solution {
 public:
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
